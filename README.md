@@ -11,3 +11,7 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## History
+
+Refactor of my advisorship/consultancy website initially at https://github.com/jpvalery/growthmontreal
