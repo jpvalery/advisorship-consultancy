@@ -2,10 +2,7 @@ import React from "react";
 
 export default function Gameloft() {
   return (
-    <svg
-      viewBox="0 0 797.5 554.3"
-      className="h-24 w-auto"
-    >
+    <svg viewBox="0 0 797.5 554.3" className="h-24 w-auto">
       <path
         fill="currentColor"
         d="M134.6 460.1c6.4-4.8 15.6-3.2 23.2-2.5 4.7.4 6.9 3.2 8.2 6.8l35.8 88.8h-28c-1.7-6.5-3.6-14.3-5.9-20.7-11.9.2-23.9.1-35.8 0l-6.8 20.7H98.8c12.4-30.8 23.6-62.2 35.8-93.1zm4.4 54.7h20.9c-1.5-11.4-6.4-22.5-10.4-33.2-4 10.8-9.6 21.9-10.5 33.2z"
