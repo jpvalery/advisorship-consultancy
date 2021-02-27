@@ -1,6 +1,6 @@
 export default function KSP() {
   return (
-    <div className="grid grid-flow-row md:grid-flow-col justify-items-center justify-around gap-10 md:gap-0">
+    <div className="max-w-5xl grid grid-flow-row md:grid-flow-col justify-items-center justify-around gap-10 md:gap-0">
       <div className="w-11/12 p-4 rounded-lg bg-gray-800 grid grid-flow-row gap-3 justify-items-start">
         <div className="grid grid-flow-col items-center">
           <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-t from-indigo-500 to-indigo-400 text-white mr-2">

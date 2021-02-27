@@ -1,9 +1,9 @@
 import NextLink from "next/link";
-import DividerV from "./DividerV";
+import DividerV from "../elements/DividerV";
 
 export default function HomeSplit() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center items-center">
+    <div className="max-w-5xl grid grid-cols-1 md:grid-cols-3 justify-items-center items-center">
       <div className="grid grid-rows-3 justify-items-center md:justify-items-start items-center gap md:gap-4">
         <h1 className="font-serif font-bold text-4xl">Advisorship</h1>
         <div className="grid grid-rows gap-2 max-w-md">

@@ -2,7 +2,7 @@ import NextLink from "next/link";
 
 export default function Questions() {
   return (
-    <div className="mx-auto">
+    <div className="max-w-5xl mx-auto">
       <h2 className="text-3xl font-extrabold text-white text-center pb-8">
         Questions?
       </h2>

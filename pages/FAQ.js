@@ -1,4 +1,4 @@
-import RTH from "../components/RTH";
+import RTH from "../elements/RTH";
 
 const FAQS = [
   {
