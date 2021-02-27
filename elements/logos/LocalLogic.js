@@ -3,8 +3,6 @@ import React from "react";
 export default function LocalLogic() {
   return (
     <svg
-      width="1658.667"
-      height="312"
       viewBox="0 0 1658.667 312"
       className="h-12 w-auto"
     >

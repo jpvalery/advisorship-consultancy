@@ -3,10 +3,8 @@ import React from "react";
 export default function LANDR() {
   return (
     <svg
-      width="169"
-      height="135.4"
       viewBox="0 0 169 135.4"
-      className="h-24 w-auto"
+      className="h-12 w-auto"
     >
       <path
         fill="currentColor"

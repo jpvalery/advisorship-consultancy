@@ -3,10 +3,8 @@ import React from "react";
 export default function Gameloft() {
   return (
     <svg
-      width="797.5"
-      height="554.3"
       viewBox="0 0 797.5 554.3"
-      className="h-24 w-auto"
+      className="h-12 w-auto"
     >
       <path
         fill="currentColor"
