@@ -5,8 +5,6 @@ export default function LANDR() {
     <svg
       className="h-24 w-24"
       version="1.1"
-      x="0px"
-      y="0px"
       viewBox="0 0 169 135.4"
     >
       <title>LANDR Logo</title>

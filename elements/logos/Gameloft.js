@@ -5,8 +5,6 @@ export default function Gameloft() {
     <svg
       className="h-24 w-24"
       version="1.1"
-      x="0px"
-      y="0px"
       viewBox="0 0 797.5 554.3"
     >
       <path
