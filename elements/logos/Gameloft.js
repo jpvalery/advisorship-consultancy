@@ -4,7 +4,7 @@ export default function Gameloft() {
   return (
     <svg
       viewBox="0 0 797.5 554.3"
-      className="h-16 w-auto"
+      className="h-14 w-auto"
     >
       <path
         fill="currentColor"
