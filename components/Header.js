@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Transition, Menu } from "@headlessui/react";
 import NextLink from "next/link";
-import Growth from "../icons/Growth";
+import Growth from "../elements/icons/Growth";
 import React from "react";
 
 export default function Header() {

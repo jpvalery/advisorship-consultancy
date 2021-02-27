@@ -1,6 +1,6 @@
-import GitHub from "../icons/Github";
-import LinkedIn from "../icons/Linkedin";
-import Twitter from "../icons/Twitter";
+import GitHub from "../elements/icons/Github";
+import LinkedIn from "../elements/icons/Linkedin";
+import Twitter from "../elements/icons/Twitter";
 
 export default function Footer() {
   return (

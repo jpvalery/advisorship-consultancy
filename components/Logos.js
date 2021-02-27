@@ -1,6 +1,6 @@
-import Gameloft from "../logos/Gameloft";
-import LANDR from "../logos/LANDR";
-import LocalLogic from "../logos/LocalLogic";
+import Gameloft from "../elements/logos/Gameloft";
+import LANDR from "../elements/logos/LANDR";
+import LocalLogic from "../elements/logos/LocalLogic";
 
 export default function Logos() {
   return (
