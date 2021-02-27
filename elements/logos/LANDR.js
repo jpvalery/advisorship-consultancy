@@ -4,7 +4,7 @@ export default function LANDR() {
   return (
     <svg
       viewBox="0 0 169 135.4"
-      className="h-12 w-auto"
+      className="h-16 w-auto"
     >
       <path
         fill="currentColor"
