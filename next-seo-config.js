@@ -1,4 +1,4 @@
-const title = "𝔊 - Advisorship / Consultancy";
+const title = "𝔊 - Growth Advisorship / Consultancy";
 const description =
   "Advisorship and consultancy in Growth Operations and Customer Success";
 
