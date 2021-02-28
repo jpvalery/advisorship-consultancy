@@ -2,7 +2,7 @@ export default function Amplitude() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 md:h-10 w-auto"
+      className="h-8 w-full md:h-10 md:w-auto"
       viewBox="0 0 148 32"
     >
       <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">

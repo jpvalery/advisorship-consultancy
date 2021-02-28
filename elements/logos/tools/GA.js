@@ -2,7 +2,7 @@ export default function GA() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 md:h-10 w-auto"
+      className="w-full md:h-10"
       viewBox="26 -29 310 60"
     >
       <g fill="currentColor">

@@ -19,7 +19,7 @@ import Zapier from "../elements/logos/tools/Zapier";
 
 export default function Tools() {
   return (
-    <div className="max-w-5xl mx-auto py-10">
+    <div className="max-w-5xl mx-auto py-16 md:py-32">
       <h2 className="text-xl uppercase font-extrabold text-gray-300 text-center pb-8">
         Expertise across martech and growth stacks
       </h2>
@@ -58,10 +58,7 @@ export default function Tools() {
           <Zendesk />
         </div>
         <div className="col-span-2">
-          <div className="flex flex-inline items-center">
-            <Vitally />
-            <span className="ml-4 font-semibold text-xl">Vitally</span>
-          </div>
+          <Vitally />
         </div>
 
         <div className="col-span-2">

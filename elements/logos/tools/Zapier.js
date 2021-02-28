@@ -2,7 +2,7 @@ export default function Zapier() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-10 md:h-12 w-auto"
+      className="h-10 w-full md:h-12 md:w-auto"
       viewBox="0 0 80 37"
     >
       <path

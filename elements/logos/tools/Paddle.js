@@ -2,7 +2,7 @@ export default function Paddle() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 md:h-10 w-auto"
+      className="h-8 w-full md:h-10 md:w-auto"
       fillRule="evenodd"
       strokeLinejoin="round"
       strokeMiterlimit="1.414"
