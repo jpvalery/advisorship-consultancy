@@ -13,8 +13,19 @@ export default function Consultancy() {
         results
       </p>
       <div className="prose prose-xl prose-consultant text-center text-gray-50 py-8">
-        <p>According to <a href="https://go.forrester.com/blogs/the-revenue-operations-charter-is-born/">Forrester</a>, companies with aligned revenue operations <b>grow 12 to 15 times faster</b> than their competition and are <b>34% more profitable</b>.</p>
-        <p>Get the leanest yet highest-performing operations stack your company deserve and need with none of the overhead</p>
+        <p>
+          According to{" "}
+          <a href="https://go.forrester.com/blogs/the-revenue-operations-charter-is-born/">
+            Forrester
+          </a>
+          , companies with aligned revenue operations{" "}
+          <b>grow 12 to 15 times faster</b> than their competition and are{" "}
+          <b>34% more profitable</b>.
+        </p>
+        <p>
+          Get the leanest yet highest-performing operations stack your company
+          deserve and need with none of the overhead
+        </p>
       </div>
       <CTA />
       <Tools />
