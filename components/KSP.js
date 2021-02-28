@@ -29,7 +29,7 @@ export default function KSP() {
         </div>
         <div>
           <p className="mt-2 text-base text-gray-400">
-            With a decade of experience, we know how to navigate uncertainty and
+            With a decade of experience, I know how to navigate uncertainty and
             get meaningful things done.
           </p>
           <p className="mt-2 text-base text-gray-400">
@@ -62,11 +62,11 @@ export default function KSP() {
         <div>
           <p className="mt-2 text-base text-gray-400">
             It's easy to <em>hack</em> and <em>hustle</em> your way to short
-            term wins. That ain't us.
+            term wins. That ain't me.
             <br />
           </p>
           <p className="mt-2 text-base text-gray-400">
-            We bring scalable and sustainable growth systems as engines to power
+            I bring scalable and sustainable growth systems as engines to power
             your product.
           </p>
         </div>
@@ -99,7 +99,7 @@ export default function KSP() {
             them all.
           </p>
           <p className="mt-2 text-base text-gray-400">
-            Add some turbo to support your team.
+            Let me add some turbo to support your team.
           </p>
         </div>
       </div>

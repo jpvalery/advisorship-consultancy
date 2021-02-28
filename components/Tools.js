@@ -19,11 +19,11 @@ import Zapier from "../elements/logos/tools/Zapier";
 
 export default function Tools() {
   return (
-    <div className="max-w-5xl mx-auto py-16 md:py-32">
-      <h2 className="text-xl uppercase font-extrabold text-gray-300 text-center pb-8">
-        Expertise across martech and growth stacks
+    <div className="max-w-5xl mx-auto py-8">
+      <h2 className="text-xl uppercase font-extrabold text-gray-50 text-center pb-8">
+        End-to-end expertise on martech and growth stacks
       </h2>
-      <div className="text-white grid grid-cols-6 justify-around justify-items-center items-center gap-8 px-2 md:px-24 mx-auto">
+      <div className="text-gray-400 grid grid-cols-6 justify-around justify-items-center items-center gap-8 px-2 md:px-24 mx-auto">
         <div className="col-span-3 md:pr-8 justify-self-end">
           <Segment />
         </div>

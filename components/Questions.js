@@ -2,13 +2,17 @@ import NextLink from "next/link";
 
 export default function Questions() {
   return (
-    <div className="max-w-5xl mx-auto">
-      <h2 className="text-3xl font-extrabold text-white text-center pb-8">
+    <div className="w-full mx-auto bg-gray-800 rounded-lg p-12 flex flex-col gap-6 md:flex-row md:gap-20">
+      <div className="md:pr-12 flex-grow">
+        <h2 className="text-3xl font-extrabold text-white pb-2">
         Questions?
       </h2>
-      <div className="grid grid-cols-2 gap-12">
+      <p>If you can't find your answer in the FAQ, let's get in touch and figure it out.</p>
+      </div>
+      <div>
+        <div className="grid grid-rows-2 gap-4">
         <NextLink href="/FAQ">
-          <button className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-cta-600 hover:bg-cta-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cta-500">
+          <button className="w-full inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-cta-600 hover:bg-cta-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cta-500">
             Read the FAQ
             <svg
               class="ml-3 -mr-1 h-5 w-5"
@@ -30,7 +34,7 @@ export default function Questions() {
         <a href="https://contact.jpvalery.me">
           <button
             type="button"
-            className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-cta-600 hover:bg-cta-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cta-500"
+            className="w-full inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-cta-600 hover:bg-cta-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cta-500"
           >
             Get in touch
             <svg
@@ -50,6 +54,7 @@ export default function Questions() {
             </svg>
           </button>
         </a>
+      </div>
       </div>
     </div>
   );
