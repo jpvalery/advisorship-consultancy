@@ -4,10 +4,10 @@ import CTA from "../elements/CTA/Consultancy";
 export default function Consultancy() {
   return (
     <div className="mx-auto py-24 grid grid-flow-row justify-items-center">
-      <h1 class="text-base text-consultant-500 font-semibold tracking-wide uppercase text-center">
+      <h1 className="text-base text-consultant-500 font-semibold tracking-wide uppercase text-center">
         Consultancy
       </h1>
-      <p class="mt-2 tracking-tight font-serif font-bold text-5xl md:text-6xl text-center">
+      <p className="mt-2 tracking-tight font-serif font-bold text-5xl md:text-6xl text-center">
         <span className="line-through">Harder</span>, Better, Faster, Stronger
         <br />
         results

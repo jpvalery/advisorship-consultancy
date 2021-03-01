@@ -109,8 +109,8 @@ export default function FAQ() {
         <RTH />
         {FAQS.map(({ title, content }) => (
           <div>
-            <h2 class="text-xl font-medium text-white">{title}</h2>
-            <p class="mt-2 text-base text-gray-400">{content()}</p>
+            <h2 className="text-xl font-medium text-white">{title}</h2>
+            <p clasName="mt-2 text-base text-gray-400">{content()}</p>
           </div>
         ))}
         <RTH />

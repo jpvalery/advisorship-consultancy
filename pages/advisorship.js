@@ -4,10 +4,10 @@ import CTA from "../elements/CTA/Advisorship";
 export default function Advisorship() {
   return (
     <div className="mx-auto py-24 grid grid-flow-row justify-items-center">
-      <h1 class="text-base text-advisor-500 font-semibold tracking-wide uppercase text-center">
+      <h1 className="text-base text-advisor-500 font-semibold tracking-wide uppercase text-center">
         Advisorship
       </h1>
-      <p class="mt-2 tracking-tight font-serif font-bold text-5xl md:text-6xl text-center">
+      <p className="mt-2 tracking-tight font-serif font-bold text-5xl md:text-6xl text-center">
         Field-tested experience to support your company
       </p>
       <div className="prose prose-xl prose-advisor text-center text-gray-50 py-8">

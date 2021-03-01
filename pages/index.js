@@ -19,7 +19,7 @@ export default function Home() {
           more profitable sound?
           <a
             href="https://go.forrester.com/blogs/the-revenue-operations-charter-is-born/"
-            class="ml-1 align-top text-sm font-bold text-cta-500"
+            className="ml-1 align-top text-sm font-bold text-cta-500"
           >
             *
           </a>
