@@ -14,7 +14,7 @@ const SEO = {
     description,
     images: [
       {
-        url: "https://jpvalery.me/static/images/jp-valery-banner.jpg",
+        url: "https://growthmontreal.com/static/images/og-banner.jpg",
         alt: title,
       },
     ],
