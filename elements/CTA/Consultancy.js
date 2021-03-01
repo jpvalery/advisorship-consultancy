@@ -3,7 +3,7 @@ import NextLink from "next/link";
 export default function CTA() {
   return (
     <div className="py-4">
-      <a href="https://contact.jpvalery.me">
+      <a href="https://contact.jpvalery.me/consultancy">
         <button className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-consultant-600 hover:bg-consultant-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-consultant-500 mx-auto">
           Hire me
           <svg
