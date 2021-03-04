@@ -1,27 +1,29 @@
 const title = "𝔊 - Growth Advisorship / Consultancy";
-const description =
-  "Advisorship and consultancy in Growth Operations and Customer Success";
+const description = "Advisorship and consultancy in Growth Operations and Customer Success";
+const siteUrl = "https://growthmontreal.com"
 
 const SEO = {
-  title,
-  description,
-  canonical: "https://growthmontreal.com",
+  title: title,
+  description: description,
+  canonical: siteUrl,
   openGraph: {
     type: "website",
     locale: "en_CA",
-    url: "https://growthmontreal.com",
-    title,
-    description,
+    url: siteUrl,
+    title: title,
+    description: description,
     images: [
       {
-        url: "https://growthmontreal.com/static/images/og-banner.jpg",
-        alt: title,
+        url: 'https://growthmontreal.com/static/og-banner.jpg',
+        width: 1920,
+        height: 1280,
+        alt: 'Open Graph Image',
       },
     ],
   },
   twitter: {
     handle: "@jpvalery",
-    site: "jpvalery.com",
+    site: siteUrl,
     cardType: "summary_large_image",
   },
 };
