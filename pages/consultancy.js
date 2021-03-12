@@ -3,16 +3,16 @@ import CTA from "../elements/CTA/Consultancy";
 
 export default function Consultancy() {
   return (
-    <div className="mx-auto py-24 grid grid-flow-row justify-items-center">
-      <h1 className="text-base text-consultant-500 font-semibold tracking-wide uppercase text-center">
+    <div className="py-24 mx-auto grid grid-flow-row justify-items-center">
+      <h1 className="text-base font-semibold tracking-wide text-center uppercase text-consultant-500">
         Consultancy
       </h1>
-      <p className="mt-2 tracking-tight font-serif font-bold text-5xl md:text-6xl text-center">
+      <p className="mt-2 font-serif text-5xl font-bold tracking-tight text-center md:text-6xl">
         <span className="line-through">Harder</span>, Better, Faster, Stronger
         <br />
         results
       </p>
-      <div className="prose prose-xl prose-consultant text-center text-gray-50 py-8">
+      <div className="py-8 text-center prose prose-xl prose-consultant text-gray-50">
         <p>
           According to{" "}
           <a href="https://go.forrester.com/blogs/the-revenue-operations-charter-is-born/">

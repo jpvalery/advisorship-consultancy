@@ -2,9 +2,9 @@ import NextLink from "next/link";
 
 export default function Questions() {
   return (
-    <div className="w-full mx-auto bg-gray-800 rounded-lg p-12 flex flex-col gap-6 md:flex-row md:gap-20">
-      <div className="md:pr-6 flex-grow">
-        <h2 className="text-3xl font-extrabold text-white pb-4">Questions?</h2>
+    <div className="flex flex-col w-full p-12 mx-auto bg-gray-800 rounded-lg gap-6 md:flex-row md:gap-20">
+      <div className="flex-grow md:pr-6">
+        <h2 className="pb-4 text-3xl font-extrabold text-white">Questions?</h2>
         <p className="text-lg">
           If you can't find your answer in the FAQ, let's get in touch and
           figure it out.
@@ -13,10 +13,10 @@ export default function Questions() {
       <div>
         <div className="grid grid-rows-2 gap-4">
           <NextLink href="/FAQ">
-            <button className="w-full inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-cta-600 hover:bg-cta-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cta-500">
+            <button className="inline-flex items-center w-full px-4 py-2 text-base font-medium text-white border border-transparent shadow-sm rounded-md bg-cta-600 hover:bg-cta-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cta-500">
               Read the FAQ
               <svg
-                className="ml-3 -mr-1 h-5 w-5"
+                className="w-5 h-5 ml-3 -mr-1"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="none"
@@ -35,11 +35,11 @@ export default function Questions() {
           <a href="https://contact.jpvalery.me">
             <button
               type="button"
-              className="w-full inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-cta-500 bg-white hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+              className="inline-flex items-center w-full px-4 py-2 text-base font-medium bg-white border border-transparent shadow-sm rounded-md text-cta-500 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
             >
               Get in touch
               <svg
-                className="ml-3 -mr-1 h-5 w-5"
+                className="w-5 h-5 ml-3 -mr-1"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="none"

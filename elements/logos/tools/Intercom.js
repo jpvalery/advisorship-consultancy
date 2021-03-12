@@ -3,7 +3,7 @@ export default function Intercom() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
-      className="h-8  w-full md:w-auto"
+      className="w-full h-8  md:w-auto"
       viewBox="0 0 147 36"
     >
       <path

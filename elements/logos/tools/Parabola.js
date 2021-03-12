@@ -2,7 +2,7 @@ export default function Parabola() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-10 md:h-14 w-auto"
+      className="w-auto h-10 md:h-14"
       fill="none"
       viewBox="0 0 35 35"
     >

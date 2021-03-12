@@ -1,11 +1,11 @@
 export default function KSP() {
   return (
-    <div className="max-w-5xl grid grid-flow-row md:grid-flow-col justify-items-center justify-around gap-10 md:gap-0">
-      <div className="w-11/12 p-4 rounded-lg bg-gray-800 grid grid-flow-row gap-3 justify-items-start">
-        <div className="grid grid-flow-col items-center">
-          <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-t from-indigo-500 to-indigo-400 text-white mr-2">
+    <div className="justify-around max-w-5xl grid grid-flow-row md:grid-flow-col justify-items-center gap-10 md:gap-0">
+      <div className="w-11/12 p-4 bg-gray-800 rounded-lg grid grid-flow-row gap-3 justify-items-start">
+        <div className="items-center grid grid-flow-col">
+          <div className="flex items-center justify-center w-12 h-12 mr-2 text-white rounded-md bg-gradient-to-t from-indigo-500 to-indigo-400">
             <svg
-              className="h-6 w-6"
+              className="w-6 h-6"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -37,11 +37,11 @@ export default function KSP() {
           </p>
         </div>
       </div>
-      <div className="w-11/12 p-4 rounded-lg bg-gray-800 grid grid-flow-row gap-3 justify-items-start">
-        <div className="grid grid-flow-col items-center">
-          <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-t from-indigo-500 to-indigo-400 text-white mr-2">
+      <div className="w-11/12 p-4 bg-gray-800 rounded-lg grid grid-flow-row gap-3 justify-items-start">
+        <div className="items-center grid grid-flow-col">
+          <div className="flex items-center justify-center w-12 h-12 mr-2 text-white rounded-md bg-gradient-to-t from-indigo-500 to-indigo-400">
             <svg
-              className="h-6 w-6"
+              className="w-6 h-6"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -71,11 +71,11 @@ export default function KSP() {
           </p>
         </div>
       </div>
-      <div className="w-11/12 p-4 rounded-lg bg-gray-800 grid grid-flow-row gap-3 justify-items-start">
-        <div className="grid grid-flow-col items-center">
-          <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-t from-indigo-500 to-indigo-400 text-white mr-2">
+      <div className="w-11/12 p-4 bg-gray-800 rounded-lg grid grid-flow-row gap-3 justify-items-start">
+        <div className="items-center grid grid-flow-col">
+          <div className="flex items-center justify-center w-12 h-12 mr-2 text-white rounded-md bg-gradient-to-t from-indigo-500 to-indigo-400">
             <svg
-              className="h-6 w-6"
+              className="w-6 h-6"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -89,7 +89,7 @@ export default function KSP() {
               />
             </svg>
           </div>
-          <h3 className="text-lg leading-6 font-medium text-white">
+          <h3 className="text-lg font-medium text-white leading-6">
             Great ideas, non-stop
           </h3>
         </div>

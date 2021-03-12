@@ -2,7 +2,7 @@ export default function Logo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-full md:h-10 md:w-auto"
+      className="w-full h-8 md:h-10 md:w-auto"
       fill="none"
       viewBox="0 0 141 32"
     >

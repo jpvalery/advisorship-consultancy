@@ -2,7 +2,7 @@ import React from "react";
 
 export default function LocalLogic() {
   return (
-    <svg viewBox="0 0 1658.667 312" className="h-12 w-auto">
+    <svg viewBox="0 0 1658.667 312" className="w-auto h-12">
       <g transform="matrix(1.33333 0 0 -1.33333 0 312)">
         <g transform="translate(130.755 75.05)">
           <path

@@ -2,7 +2,7 @@ export default function Zendesk() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-6 w-full md:h-8 md:w-auto"
+      className="w-full h-6 md:h-8 md:w-auto"
       version="1.1"
       viewBox="0 0 101 20"
     >

@@ -1,7 +1,7 @@
 export default function Airtable() {
   return (
     <svg
-      className="h-8 w-full md:h-10 md:w-auto"
+      className="w-full h-8 md:h-10 md:w-auto"
       shapeRendering="geometricPrecision"
       viewBox="0 0 680 148"
     >

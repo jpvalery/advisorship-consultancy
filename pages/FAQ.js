@@ -101,11 +101,11 @@ const FAQS = [
 
 export default function FAQ() {
   return (
-    <div className="mx-auto py-24">
-      <h1 className="font-serif font-bold text-5xl md:text-6xl text-center py-8">
+    <div className="py-24 mx-auto">
+      <h1 className="py-8 font-serif text-5xl font-bold text-center md:text-6xl">
         Frequently Asked Questions
       </h1>
-      <div className="max-w-2xl grid gap-10 mx-auto">
+      <div className="max-w-2xl mx-auto grid gap-10">
         <RTH />
         {FAQS.map(({ title, content }) => (
           <div>
