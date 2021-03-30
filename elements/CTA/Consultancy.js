@@ -1,26 +1,12 @@
-import NextLink from "next/link";
+import { ArrowNarrowRightIcon } from "@heroicons/react/outline";
 
 export default function CTA() {
   return (
     <div className="py-4">
       <a href="https://contact.jpvalery.me/consultancy">
-        <button className="inline-flex items-center px-4 py-2 mx-auto text-base font-medium text-white border border-transparent shadow-sm rounded-md bg-consultant-600 hover:bg-consultant-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-consultant-500">
+        <button className="inline-flex items-center px-4 py-2 mx-auto text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-consultant-600 hover:bg-consultant-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-consultant-500">
           Hire me
-          <svg
-            className="w-5 h-5 ml-3 -mr-1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            aria-hidden="true"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"
-            />
-          </svg>
+          <ArrowNarrowRightIcon className="w-5 h-5 ml-3 -mr-1" />
         </button>
       </a>
     </div>
