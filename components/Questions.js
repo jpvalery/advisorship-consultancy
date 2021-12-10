@@ -3,7 +3,7 @@ import { ArrowNarrowRightIcon, InboxInIcon } from "@heroicons/react/outline";
 
 export default function Questions() {
   return (
-    <div className="flex flex-col w-full gap-6 p-12 mx-auto bg-gray-800 rounded-lg md:flex-row md:gap-20">
+    <div className="flex flex-col w-full gap-6 p-12 mx-auto bg-gray-800 rounded-lg md:flex-row md:gap-12">
       <div className="flex-grow md:pr-6">
         <h2 className="pb-4 text-3xl font-extrabold text-white">Questions?</h2>
         <p className="text-lg">

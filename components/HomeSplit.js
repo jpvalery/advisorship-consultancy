@@ -22,7 +22,7 @@ export default function HomeSplit() {
         <NextLink href="/advisorship">
           <button
             type="button"
-            className="inline-flex items-center px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-advisor-600 hover:bg-advisor-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-advisor-500"
+            className="inline-flex items-center px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-lg shadow-advisor-400/20 hover:shadow-none bg-advisor-600 hover:bg-advisor-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-advisor-500"
           >
             Learn more
             <ArrowNarrowRightIcon className="w-5 h-5 ml-3 -mr-1" />
@@ -42,13 +42,13 @@ export default function HomeSplit() {
             Looking to automate and optimize processes and workflows?
           </p>
           <p className="text-center md:text-right">
-            Hire me for short-term contract-based work
+            Hire me for short contract-based work
           </p>
         </div>
         <NextLink href="/consultancy">
           <button
             type="button"
-            className="inline-flex items-center px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-consultant-600 hover:bg-consultant-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-consultant-500"
+            className="inline-flex items-center px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-lg shadow-consultant-400/20 hover:shadow-none bg-consultant-600 hover:bg-consultant-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-consultant-500"
           >
             Learn more
             <ArrowNarrowRightIcon className="w-5 h-5 ml-3 -mr-1" />

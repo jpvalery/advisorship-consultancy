@@ -3,7 +3,7 @@ import { FireIcon, BeakerIcon, LightBulbIcon  } from "@heroicons/react/outline";
 export default function KSP() {
   return (
     <div className="grid justify-around max-w-5xl grid-flow-row gap-10 md:grid-flow-col justify-items-center md:gap-0">
-      <div className="grid w-11/12 grid-flow-row gap-3 p-4 bg-gray-800 rounded-lg justify-items-start">
+      <div className="grid w-11/12 grid-flow-row gap-3 p-4 bg-gray-800 rounded-lg shadow-xl justify-items-start shadow-indigo-300/5">
         <div className="grid items-center grid-flow-col">
           <div className="flex items-center justify-center w-12 h-12 mr-2 text-white rounded-md bg-gradient-to-t from-indigo-500 to-indigo-400">
             <FireIcon className="w-6 h-6" />
@@ -20,7 +20,7 @@ export default function KSP() {
           </p>
         </div>
       </div>
-      <div className="grid w-11/12 grid-flow-row gap-3 p-4 bg-gray-800 rounded-lg justify-items-start">
+      <div className="grid w-11/12 grid-flow-row gap-3 p-4 bg-gray-800 rounded-lg shadow-xl justify-items-start shadow-indigo-300/5">
         <div className="grid items-center grid-flow-col">
           <div className="flex items-center justify-center w-12 h-12 mr-2 text-white rounded-md bg-gradient-to-t from-indigo-500 to-indigo-400">
             <BeakerIcon className="w-6 h-6" />
@@ -41,7 +41,7 @@ export default function KSP() {
           </p>
         </div>
       </div>
-      <div className="grid w-11/12 grid-flow-row gap-3 p-4 bg-gray-800 rounded-lg justify-items-start">
+      <div className="grid w-11/12 grid-flow-row gap-3 p-4 bg-gray-800 rounded-lg shadow-xl justify-items-start shadow-indigo-300/5">
         <div className="grid items-center grid-flow-col">
           <div className="flex items-center justify-center w-12 h-12 mr-2 text-white rounded-md bg-gradient-to-t from-indigo-500 to-indigo-400">
             <LightBulbIcon className="w-6 h-6" />
