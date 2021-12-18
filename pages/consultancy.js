@@ -7,7 +7,7 @@ export default function Consultancy() {
       <h1 className="text-base font-semibold tracking-wide text-center uppercase text-consultant-500">
         Consultancy
       </h1>
-      <p className="mt-2 font-serif text-5xl font-bold tracking-tight text-center md:text-6xl">
+      <p className="mt-2 font-serif text-5xl font-bold tracking-tight text-center md:text-6xl [text-shadow:0_-0.2rem_12rem_rgba(167,139,250,0.33)]">
         <span className="line-through">Harder</span>, Better, Faster, Stronger
         <br />
         results

@@ -6,7 +6,9 @@ export default function HomeSplit() {
   return (
     <div className="grid items-center max-w-5xl grid-cols-1 md:grid-cols-3 justify-items-center">
       <div className="grid items-center grid-rows-3 justify-items-center md:justify-items-start gap md:gap-4">
-        <h1 className="font-serif text-4xl font-bold">Advisorship</h1>
+        <h1 className="font-serif text-4xl font-bold [text-shadow:0_-0.1rem_6rem_rgba(52,211,153,0.9)]">
+          Advisorship
+        </h1>
         <div className="grid max-w-md gap-2 grid-rows">
           <p className="text-center md:text-left">
             Need expertise and guidance on how to nurture and grow your
@@ -33,7 +35,9 @@ export default function HomeSplit() {
       <DividerV />
 
       <div className="grid items-center grid-rows-3 justify-items-center md:justify-items-end gap md:gap-4">
-        <h1 className="font-serif text-4xl font-bold">Consultancy</h1>
+        <h1 className="font-serif text-4xl font-bold [text-shadow:0_-0.1rem_6rem_rgba(167,139,250,0.9)]">
+          Consultancy
+        </h1>
         <div className="grid max-w-md gap-2 grid-rows">
           <p className="text-center md:text-right">
             Need help with building or improving your GrowthOps/RevOps stack?

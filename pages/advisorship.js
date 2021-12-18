@@ -7,7 +7,7 @@ export default function Advisorship() {
       <h1 className="text-base font-semibold tracking-wide text-center uppercase text-advisor-500">
         Advisorship
       </h1>
-      <p className="mt-2 font-serif text-5xl font-bold tracking-tight text-center md:text-6xl">
+      <p className="mt-2 font-serif text-5xl font-bold tracking-tight text-center md:text-6xl [text-shadow:0_-0.2rem_12rem_rgba(52,211,153,0.33)]">
         Field-tested experience to support your company
       </p>
       <div className="py-8 prose prose-xl text-center prose-a:text-advisor-500 text-gray-50">

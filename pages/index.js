@@ -7,9 +7,9 @@ import Tools from "../components/Tools";
 
 export default function Home() {
   return (
-    <div className="py-24 mx-auto grid gap-20 md:gap-30">
+    <div className="grid gap-20 py-24 mx-auto md:gap-30">
       <div className="py-8">
-        <h1 className="pb-8 font-serif text-5xl font-bold text-center md:text-6xl">
+        <h1 className="pb-8 font-serif text-5xl font-bold text-center md:text-6xl [text-shadow:0_-0.2rem_12rem_rgba(236,72,153,0.5)]">
           Sustainable growth for
           <br />
           early-stage SaaS
