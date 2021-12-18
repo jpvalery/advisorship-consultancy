@@ -3,14 +3,14 @@ import CTA from "../elements/CTA/Advisorship";
 
 export default function Advisorship() {
   return (
-    <div className="py-24 mx-auto grid grid-flow-row justify-items-center">
+    <div className="grid grid-flow-row py-24 mx-auto justify-items-center">
       <h1 className="text-base font-semibold tracking-wide text-center uppercase text-advisor-500">
         Advisorship
       </h1>
       <p className="mt-2 font-serif text-5xl font-bold tracking-tight text-center md:text-6xl">
         Field-tested experience to support your company
       </p>
-      <div className="py-8 text-center prose prose-xl prose-advisor text-gray-50">
+      <div className="py-8 prose prose-xl text-center prose-a:text-advisor-500 text-gray-50">
         <p>
           According to{" "}
           <a href="https://go.forrester.com/blogs/the-revenue-operations-charter-is-born/">

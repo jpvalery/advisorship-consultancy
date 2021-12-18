@@ -3,7 +3,7 @@ import CTA from "../elements/CTA/Consultancy";
 
 export default function Consultancy() {
   return (
-    <div className="py-24 mx-auto grid grid-flow-row justify-items-center">
+    <div className="grid grid-flow-row py-24 mx-auto justify-items-center">
       <h1 className="text-base font-semibold tracking-wide text-center uppercase text-consultant-500">
         Consultancy
       </h1>
@@ -12,7 +12,7 @@ export default function Consultancy() {
         <br />
         results
       </p>
-      <div className="py-8 text-center prose prose-xl prose-consultant text-gray-50">
+      <div className="py-8 prose prose-xl text-center prose-a:text-consultant-500 text-gray-50">
         <p>
           According to{" "}
           <a href="https://go.forrester.com/blogs/the-revenue-operations-charter-is-born/">
