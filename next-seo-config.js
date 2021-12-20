@@ -1,6 +1,7 @@
 const title = "𝔊 - Growth Advisorship / Consultancy";
-const description = "Advisorship and consultancy in Growth Operations and Customer Success";
-const siteUrl = "https://growthmontreal.com"
+const description =
+  "Advisorship and consultancy in Growth Operations and Customer Success";
+const siteUrl = "https://growthmontreal.com";
 
 const SEO = {
   title: title,
@@ -14,10 +15,10 @@ const SEO = {
     description: description,
     images: [
       {
-        url: 'https://growthmontreal.com/static/og-banner.jpg',
+        url: "https://growthmontreal.com/static/og-banner.jpg",
         width: 1920,
         height: 1280,
-        alt: 'Open Graph Image',
+        alt: "Open Graph Image",
       },
     ],
   },
