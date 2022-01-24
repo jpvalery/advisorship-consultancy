@@ -2,7 +2,7 @@ export default function Customerio() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="w-auto h-24"
+      className="h-24 w-auto"
       fill="none"
       viewBox="0 0 296 145"
     >

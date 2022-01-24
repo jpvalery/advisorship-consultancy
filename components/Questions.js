@@ -3,7 +3,7 @@ import { ArrowNarrowRightIcon, InboxInIcon } from "@heroicons/react/outline";
 
 export default function Questions() {
   return (
-    <div className="flex flex-col w-full gap-6 p-12 mx-auto bg-gray-800 rounded-lg md:flex-row md:gap-12">
+    <div className="mx-auto flex w-full flex-col gap-6 rounded-lg bg-gray-800 p-12 md:flex-row md:gap-12">
       <div className="flex-grow md:pr-6">
         <h2 className="pb-4 text-3xl font-extrabold text-white">Questions?</h2>
         <p className="text-lg">
@@ -14,18 +14,18 @@ export default function Questions() {
       <div>
         <div className="grid grid-rows-2 gap-4">
           <NextLink href="/FAQ">
-            <button className="flex items-center justify-between w-full px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-cta-600 hover:bg-cta-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cta-500">
+            <button className="flex w-full items-center justify-between rounded-md border border-transparent bg-cta-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-cta-700 focus:outline-none focus:ring-2 focus:ring-cta-500 focus:ring-offset-2">
               Read the FAQ
-              <ArrowNarrowRightIcon className="w-5 h-5 ml-3 -mr-1" />
+              <ArrowNarrowRightIcon className="ml-3 -mr-1 h-5 w-5" />
             </button>
           </NextLink>
           <a href="https://contact.jpvalery.me">
             <button
               type="button"
-              className="flex items-center justify-between w-full px-4 py-2 text-base font-medium bg-white border border-transparent rounded-md shadow-sm text-cta-500 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+              className="flex w-full items-center justify-between rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-cta-500 shadow-sm hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
             >
               Get in touch
-              <InboxInIcon className="w-5 h-5 ml-3 -mr-1" />
+              <InboxInIcon className="ml-3 -mr-1 h-5 w-5" />
             </button>
           </a>
         </div>

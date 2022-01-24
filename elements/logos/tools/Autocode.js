@@ -2,7 +2,7 @@ export default function Autocode() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="w-full h-8 md:h-10 md:w-auto"
+      className="h-8 w-full md:h-10 md:w-auto"
       viewBox="0 0 260.857 64"
     >
       <g fill="currentColor">

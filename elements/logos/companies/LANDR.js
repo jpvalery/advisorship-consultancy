@@ -2,7 +2,7 @@ import React from "react";
 
 export default function LANDR() {
   return (
-    <svg viewBox="0 0 169 135.4" className="w-auto h-24">
+    <svg viewBox="0 0 169 135.4" className="h-24 w-auto">
       <path
         fill="currentColor"
         d="M67.7 135.4C30.5 135.4 0 105 0 67.7S30.5 0 67.7 0s67.7 30.5 67.7 67.7-30.2 67.7-67.7 67.7zm0-132C32.3 3.4 3.4 32.3 3.4 67.7S32.3 132 67.7 132 132 103.1 132 67.7 103.4 3.4 67.7 3.4z"

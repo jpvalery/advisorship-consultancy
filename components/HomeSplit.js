@@ -4,12 +4,12 @@ import { ArrowNarrowRightIcon } from "@heroicons/react/outline";
 
 export default function HomeSplit() {
   return (
-    <div className="grid items-center max-w-5xl grid-cols-1 md:grid-cols-3 justify-items-center">
-      <div className="grid items-center grid-rows-3 justify-items-center md:justify-items-start gap md:gap-4">
+    <div className="grid max-w-5xl grid-cols-1 items-center justify-items-center md:grid-cols-3">
+      <div className="gap grid grid-rows-3 items-center justify-items-center md:justify-items-start md:gap-4">
         <h1 className="font-serif text-4xl font-bold [text-shadow:0_-0.1rem_6rem_rgba(52,211,153,0.9)]">
           Advisorship
         </h1>
-        <div className="grid max-w-md gap-2 grid-rows">
+        <div className="grid-rows grid max-w-md gap-2">
           <p className="text-center md:text-left">
             Need expertise and guidance on how to nurture and grow your
             audience?
@@ -24,21 +24,21 @@ export default function HomeSplit() {
         <NextLink href="/advisorship">
           <button
             type="button"
-            className="inline-flex items-center px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-lg shadow-advisor-400/20 hover:shadow-none bg-advisor-600 hover:bg-advisor-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-advisor-500"
+            className="inline-flex items-center rounded-md border border-transparent bg-advisor-600 px-4 py-2 text-base font-medium text-white shadow-lg shadow-advisor-400/20 hover:bg-advisor-700 hover:shadow-none focus:outline-none focus:ring-2 focus:ring-advisor-500 focus:ring-offset-2"
           >
             Learn more
-            <ArrowNarrowRightIcon className="w-5 h-5 ml-3 -mr-1" />
+            <ArrowNarrowRightIcon className="ml-3 -mr-1 h-5 w-5" />
           </button>
         </NextLink>
       </div>
 
       <DividerV />
 
-      <div className="grid items-center grid-rows-3 justify-items-center md:justify-items-end gap md:gap-4">
+      <div className="gap grid grid-rows-3 items-center justify-items-center md:justify-items-end md:gap-4">
         <h1 className="font-serif text-4xl font-bold [text-shadow:0_-0.1rem_6rem_rgba(167,139,250,0.9)]">
           Consultancy
         </h1>
-        <div className="grid max-w-md gap-2 grid-rows">
+        <div className="grid-rows grid max-w-md gap-2">
           <p className="text-center md:text-right">
             Need help with building or improving your GrowthOps/RevOps stack?
           </p>
@@ -52,10 +52,10 @@ export default function HomeSplit() {
         <NextLink href="/consultancy">
           <button
             type="button"
-            className="inline-flex items-center px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-lg shadow-consultant-400/20 hover:shadow-none bg-consultant-600 hover:bg-consultant-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-consultant-500"
+            className="inline-flex items-center rounded-md border border-transparent bg-consultant-600 px-4 py-2 text-base font-medium text-white shadow-lg shadow-consultant-400/20 hover:bg-consultant-700 hover:shadow-none focus:outline-none focus:ring-2 focus:ring-consultant-500 focus:ring-offset-2"
           >
             Learn more
-            <ArrowNarrowRightIcon className="w-5 h-5 ml-3 -mr-1" />
+            <ArrowNarrowRightIcon className="ml-3 -mr-1 h-5 w-5" />
           </button>
         </NextLink>
       </div>

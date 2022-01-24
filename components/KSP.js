@@ -1,12 +1,12 @@
 export default function KSP() {
   return (
-    <div className="grid justify-around max-w-5xl grid-flow-row gap-10 md:grid-flow-col justify-items-center md:gap-0">
-      <div className="grid w-11/12 grid-flow-row gap-3 p-4 bg-gray-800 rounded-lg shadow-xl justify-items-start shadow-indigo-300/5">
-        <div className="grid items-center grid-flow-col text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500">
-          <div className="flex items-center justify-center w-12 h-12 mr-2">
+    <div className="grid max-w-5xl grid-flow-row justify-around justify-items-center gap-10 md:grid-flow-col md:gap-0">
+      <div className="grid w-11/12 grid-flow-row justify-items-start gap-3 rounded-lg bg-gray-800 p-4 shadow-xl shadow-indigo-300/5">
+        <div className="grid grid-flow-col items-center bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
+          <div className="mr-2 flex h-12 w-12 items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-12 h-12 text-pink-500"
+              className="h-12 w-12 text-pink-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -37,12 +37,12 @@ export default function KSP() {
           </p>
         </div>
       </div>
-      <div className="grid w-11/12 grid-flow-row gap-3 p-4 bg-gray-800 rounded-lg shadow-xl justify-items-start shadow-indigo-300/5">
-        <div className="grid items-center grid-flow-col text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500">
-          <div className="flex items-center justify-center w-12 h-12 mr-2">
+      <div className="grid w-11/12 grid-flow-row justify-items-start gap-3 rounded-lg bg-gray-800 p-4 shadow-xl shadow-indigo-300/5">
+        <div className="grid grid-flow-col items-center bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
+          <div className="mr-2 flex h-12 w-12 items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-12 h-12 text-pink-500"
+              className="h-12 w-12 text-pink-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -69,12 +69,12 @@ export default function KSP() {
           </p>
         </div>
       </div>
-      <div className="grid w-11/12 grid-flow-row gap-3 p-4 bg-gray-800 rounded-lg shadow-xl justify-items-start shadow-indigo-300/5">
-        <div className="grid items-center grid-flow-col text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500">
-          <div className="flex items-center justify-center w-12 h-12 mr-2">
+      <div className="grid w-11/12 grid-flow-row justify-items-start gap-3 rounded-lg bg-gray-800 p-4 shadow-xl shadow-indigo-300/5">
+        <div className="grid grid-flow-col items-center bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
+          <div className="mr-2 flex h-12 w-12 items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-12 h-12 text-pink-500"
+              className="h-12 w-12 text-pink-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"

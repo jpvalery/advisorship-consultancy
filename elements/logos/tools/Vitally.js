@@ -1,9 +1,9 @@
 export default function Vitally() {
   return (
-    <div className="flex items-center flex-inline">
+    <div className="flex-inline flex items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-auto h-6 md:h-10"
+        className="h-6 w-auto md:h-10"
         viewBox="0 0 42 35"
       >
         <path
